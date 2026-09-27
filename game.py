@@ -6,7 +6,7 @@ def draw_omikuji():
     elif fortune == "中ミク":st.balloons(); st.success("adoがデビュー前によく聞いていた曲はボーカロイド通称ボカロなんだ！")
     elif fortune == "小ミク":st.balloons(); st.success("ミクのデビュー曲は01_balladeなんだ！")
     else: st.error("今日はミクを拝もう")
-st.title("今日のミクミク占い")
+st.title("今日のミクミク豆知識!!!!!!!!!!!!!!!!!!!!")
 
 if st.button("ミクくじを引く"):
     draw_omikuji()  
